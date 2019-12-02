@@ -116,7 +116,7 @@ while !end_program
     logger.debug 'answers_str:' + answers_str
     logger.debug 'creator:' + creator
     is_solved = q["is_solved"] ? "true" : "false"
-    solved_by = q["solved_by"] ? "true" : "false"
+    solved_by = q["solved_by"] ? q["solved_by"]["username"] : "false"
 
     if created.to_i >= created_time.to_i && created.to_i <= end_time.to_i
       logger.debug "NOT skipping"

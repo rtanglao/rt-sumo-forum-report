@@ -106,6 +106,6 @@ CSV.foreach(FILENAME, :headers => true) do |row|
              responded_in_24h, responded_in_72h, is_solved]
 end
 FORUM_RESPONSE_FILENAME = sprintf("forum-response-report-%s", FILENAME)
-CSV.open(FILENAME, "w", write_headers: true, headers: headers) do |csv_object|
+CSV.open(FORUM_RESPONSE_FILENAME, "w", write_headers: true, headers: headers) do |csv_object|
   csv.each {|row_array| csv_object << row_array }
 end

@@ -9,7 +9,9 @@ monthly sumo forum report, will hopefully be rendered obsolete by better code re
 cp ../../rt-kits-api2/202003/2020-03-10-2020-03-25-firefox-creator-answers-desktop-all-locales.csv .
 ../print-question-desktop-en-us-responded-in-24-responded-in-72hours.rb \
 2020-03-10-2020-03-25-firefox-creator-answers-desktop-all-locales.csv
-mlr --csv cut -f responded_in_72h forum-ff-desktop-en-us-response-report-2020-03-10-2020-03-25-firefox-creator-answers-desktop-all-locales.csv | grep true | wc -l
+mlr --csv cut -f responded_in_72h \
+forum-ff-desktop-en-us-response-report-2020-03-10-2020-03-25-firefox-creator-answers-desktop-all-locales.csv\
+| grep true | wc -l
 483
 ```
 

@@ -80,6 +80,7 @@ top-all-locales.csv
 8
 0
 0
+../get-all-products-creator-answers-questions-for-arbitrary-time-period.rb 2020 6 1 2020 6 13
 ```
 
 ## 25march2020 get number answered within 72 hours for firefox 74 march 10-25, 2020

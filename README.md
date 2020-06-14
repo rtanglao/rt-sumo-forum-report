@@ -3,6 +3,8 @@ monthly sumo forum report, will hopefully be rendered obsolete by better code re
 
 ## 13june2020 % SUMO forum questions replied w/in 72 hours for may and june 2020 for all products
 
+* see [%SUMO forum questions replied w/in 72 hours for may and june (1-13) 2020](https://docs.google.com/spreadsheets/d/1MLXgTFzqcCVZYC4a-x2Jr-00EhpuvjGixvxip4n5jAo/edit#gid=0)
+
 ```bash
 cd /home/roland/GIT/rt-sumo-forum-report/2019_AND_2020_UNTIL_12JUNE_FOR_JR
 ../get-all-products-creator-answers-questions-for-arbitrary-time-period.rb 2020 5 1 2020 5 3
@@ -11,6 +13,24 @@ wc -l 2020-05-01-2020-05-31-allproducts-creator-answers-desktop-all-locales.csv
 grep ",firefox," 2020-05-01-2020-05-31-allproducts-creator-answers-desktop-all-locales.csv | wc -l
 2025
 grep ",thunderbird," 2020-05-01-2020-05-31-allproducts-creator-answers-desktop-all-locales.csv | wc -l
+# all in 1 script
+ % ../get-question-count-all-products.sh 2020-05-01-2020-05-31-allproducts-creator-answers-desktop-all-locales.csv
+2025
+615
+398
+2
+6
+65
+48
+124
+3
+1
+3
+2
+14
+6
+11
+0
 ```
 
 ## 25march2020 get number answered within 72 hours for firefox 74 march 10-25, 2020

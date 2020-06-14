@@ -122,7 +122,7 @@ while !end_program
       logger.debug "NOT skipping"
       csv.push(
         [
-        id, created.to_s, q["updated"].to_s, q["title"], q["content"], 
+	id, created.to_s, q["updated"].to_s, q["title"], q["content"].tr("\n"," "), 
         tag_str, q["product"], q["topic"], q["locale"],
         answers_str, creator,is_solved, solved_by, 
         q['num_answers']

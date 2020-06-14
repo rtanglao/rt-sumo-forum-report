@@ -80,6 +80,7 @@ top-all-locales.csv
 8
 0
 0
+# start of june 1-13, 2020
 ../get-all-products-creator-answers-questions-for-arbitrary-time-period.rb 2020 6 1 2020 6 13
 ```
 

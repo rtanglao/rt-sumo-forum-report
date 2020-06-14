@@ -31,6 +31,9 @@ grep ",thunderbird," 2020-05-01-2020-05-31-allproducts-creator-answers-desktop-a
 6
 11
 0
+# get # of questions answered in 24 and 72 hours 
+../print-question-product-responded-in-24-responded-in-72hours.rb \
+2020-05-01-2020-05-31-allproducts-creator-answers-desktop-all-locales.csv
 ```
 
 ## 25march2020 get number answered within 72 hours for firefox 74 march 10-25, 2020

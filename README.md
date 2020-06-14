@@ -46,6 +46,40 @@ forum-response-report-2020-05-01-2020-05-31-allproducts-creator-answers-desktop-
 615
 grep thunderbird forum-response-report-2020-05-01-2020-05-31-allproducts-creator-answers-desktop-all-locales.csv | mlr --inidx --ifs comma --oxtab cut -f 5 | grep true | wc -l
 453
+../get-count-num-answered-72hours.sh forum-response-report-2020-05-01-2020-05-31-allproducts-creator-answers-desktop-all-locales.csv
+top-all-locales.csv
+2023
+1465
+615
+453
+398
+240
+0
+0
+6
+3
+65
+29
+48
+30
+124
+45
+3
+1
+0
+0
+3
+0
+2
+1
+14
+7
+6
+3
+11
+8
+0
+0
 ```
 
 ## 25march2020 get number answered within 72 hours for firefox 74 march 10-25, 2020

@@ -17,8 +17,8 @@ forum-ff-desktop-en-us-response-report-2020-03-10-2020-03-25-firefox-creator-ans
 
 ## 03march2020 counting number of support question for the last 6 months
 ```bash
-../get-creator-answers-questions-for-arbitrary-time-period.rb 2019 9 1 2020 2 29
-  ../print-question-product.rb 2019-09-01-2020-02-29-allproducts-creator-answers-desktop-all-locales.csv
+../get-all-products-creator-answers-questions-for-arbitrary-time-period.rb 2019 9 1 2020 2 29
+../print-question-product.rb 2019-09-01-2020-02-29-allproducts-creator-answers-desktop-all-locales.csv
 ls *.csv
 git add question-product-created-response-report-2019-09-01-2020-02-29-allproducts-creator-answers-desktop-all-locales.csv
 git commit -m "add id, created, product file for 2019sept-2020feb"

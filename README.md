@@ -9,7 +9,7 @@ monthly sumo forum report, will hopefully be rendered obsolete by better code re
 cd /home/roland/GIT/rt-sumo-forum-report/2019_AND_2020_UNTIL_12JUNE_FOR_JR
 ../get-all-products-creator-answers-questions-for-arbitrary-time-period.rb 2020 5 1 2020 5 3
 wc -l 2020-05-01-2020-05-31-allproducts-creator-answers-desktop-all-locales.csv 
-3319 # 3318 questions ! have to subtract one beause line 1 is the header line
+3319 # 3318 questions ! have to subtract one because line 1 is the header line
 grep ",firefox," 2020-05-01-2020-05-31-allproducts-creator-answers-desktop-all-locales.csv | wc -l
 2025
 grep ",thunderbird," 2020-05-01-2020-05-31-allproducts-creator-answers-desktop-all-locales.csv | wc -l

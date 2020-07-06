@@ -1,6 +1,12 @@
 # rt-sumo-forum-report
 monthly sumo forum report, will hopefully be rendered obsolete by better code real soon now :-)
 
+## 05july2020 get by week for all products
+
+```bash
+cd /home/roland/GIT/rt-sumo-forum-report/BY_WEEK
+```
+
 ## 13june2020 % SUMO forum questions replied w/in 72 hours for may and june 2020 for all products
 
 * see [%SUMO forum questions replied w/in 72 hours for may and june (1-13) 2020](https://docs.google.com/spreadsheets/d/1MLXgTFzqcCVZYC4a-x2Jr-00EhpuvjGixvxip4n5jAo/edit#gid=0)

@@ -11,6 +11,9 @@ wc -l 2020-06-14-2020-06-20-allproducts-creator-answers-desktop-all-locales.csv
 ../get-all-products-creator-answers-questions-for-arbitrary-time-period.rb 2020 6 21 2020 6 27
 wc -l 2020-06-21-2020-06-27-allproducts-creator-answers-desktop-all-locales.csv 
 805 2020-06-21-2020-06-27-allproducts-creator-answers-desktop-all-locales.csv # which means 804
+../get-all-products-creator-answers-questions-for-arbitrary-time-period.rb 2020 6 28 2020 7 4
+wc -l 2020-06-28-2020-07-04-allproducts-creator-answers-desktop-all-locales.csv 
+881 2020-06-28-2020-07-04-allproducts-creator-answers-desktop-all-locales.csv # which means 880
 ```
 
 ## 13june2020 % SUMO forum questions replied w/in 72 hours for may and june 2020 for all products

@@ -5,6 +5,8 @@ monthly sumo forum report, will hopefully be rendered obsolete by better code re
 
 ```bash
 cd /home/roland/GIT/rt-sumo-forum-report/BY_WEEK
+../get-all-products-creator-answers-questions-for-arbitrary-time-period.rb 2020 6 14 2020 6 20
+wc -l 2020-06-14-2020-06-20-allproducts-creator-answers-desktop-all-locales.csv
 ```
 
 ## 13june2020 % SUMO forum questions replied w/in 72 hours for may and june 2020 for all products

@@ -41,6 +41,7 @@ id,created,updated,title,content,tags,product,topic,locale,answers,creator,is_so
     * [free-proxy-2020-07-17-2020-07-20-all-locales.csv](https://github.com/rtanglao/rt-sumo-forum-report/blob/master/ARBITRARY_TIME_PERIOD/free-proxy-2020-07-17-2020-07-20-all-locales.csv)
 
 * 6\. upload to google sheets and add "https://support.mozilla.org/questions/" to id column to make the id field a URL and therefore clickable
+    * use regular expressions: replace `([0-9]+)` with `https://support.mozilla.org/questions/$1` 
 
 
 ## 05july2020 get by week for all products

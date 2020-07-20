@@ -22,6 +22,9 @@ cd /home/roland/GIT/rt-sumo-forum-report/ARBITRARY_TIME_PERIOD
 grep ",firefox-private-network-vpn," \
 2020-07-17-2020-07-20-allproducts-creator-answers-desktop-all-locales.csv  \ 
 > mozilla-vpn-2020-07-17-2020-07-20-all-locales.csv
+grep ",firefox-private-network," \
+2020-07-17-2020-07-20-allproducts-creator-answers-desktop-all-locales.csv  \
+> free-proxy-2020-07-17-2020-07-20-all-locales.csv
 ``` 
 
 * 4\. manually re-add the header line from 2020-07-17-2020-07-20-allproducts-creator-answers-desktop-all-locales.csv

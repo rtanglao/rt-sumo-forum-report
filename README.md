@@ -24,7 +24,13 @@ grep ",firefox-private-network-vpn," \
 > mozilla-vpn-2020-07-17-2020-07-20-all-locales.csv
 ``` 
 
-* 4\. re-add the header line from 2020-07-17-2020-07-20-allproducts-creator-answers-desktop-all-locales.csv
+* 4\. manually re-add the header line from 2020-07-17-2020-07-20-allproducts-creator-answers-desktop-all-locales.csv
+
+```bash
+head -1 2020-07-17-2020-07-20-allproducts-creator-answers-desktop-all-locales.csv
+id,created,updated,title,content,tags,product,topic,locale,answers,creator,is_solved,solved_by,num_answers
+```
+
 
 ## 05july2020 get by week for all products
 

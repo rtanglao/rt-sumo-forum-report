@@ -32,6 +32,7 @@ grep ",firefox-private-network," \
 ```bash
 head -1 2020-07-17-2020-07-20-allproducts-creator-answers-desktop-all-locales.csv
 id,created,updated,title,content,tags,product,topic,locale,answers,creator,is_solved,solved_by,num_answers
+# copy the header line above and manually add to beginning of the csv files for mozilla vpn and free proxy
 ```
 
 

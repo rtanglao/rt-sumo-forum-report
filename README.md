@@ -3,7 +3,8 @@ monthly sumo forum report, will hopefully be rendered obsolete by better code re
 
 ## 20july2020 get friday july 17-monday july20, 2020 for paid products
 
-* 1\. get all the questions
+* 1\. get all the questions into a file called:
+    * [2020-07-17-2020-07-20-allproducts-creator-answers-desktop-all-locales.csv](https://github.com/rtanglao/rt-sumo-forum-report/blob/master/ARBITRARY_TIME_PERIOD/2020-07-17-2020-07-20-allproducts-creator-answers-desktop-all-locales.csv)
 
 ```bash
 cd /home/roland/GIT/rt-sumo-forum-report/ARBITRARY_TIME_PERIOD

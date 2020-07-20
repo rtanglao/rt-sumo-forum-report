@@ -13,6 +13,10 @@ cd /home/roland/GIT/rt-sumo-forum-report/ARBITRARY_TIME_PERIOD
 # 2020-07-17-2020-07-20-allproducts-creator-answers-desktop-all-locales.csv
 ```
 
+* 2\. paid products can be found with regex:
+    * ",firefox-private-network," # for proxy
+    * ",firefox-private-network-vpn," # for mozilla vpn
+
 ## 05july2020 get by week for all products
 
 ```bash

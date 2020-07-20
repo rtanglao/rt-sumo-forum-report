@@ -35,6 +35,11 @@ id,created,updated,title,content,tags,product,topic,locale,answers,creator,is_so
 # copy the header line above and manually add to beginning of the csv files for mozilla vpn and free proxy
 ```
 
+* 5\. resulting files are here:
+
+    * [mozilla-vpn-2020-07-17-2020-07-20-all-locales.csv](https://github.com/rtanglao/rt-sumo-forum-report/blob/master/ARBITRARY_TIME_PERIOD/mozilla-vpn-2020-07-17-2020-07-20-all-locales.csv)
+    * [free-proxy-2020-07-17-2020-07-20-all-locales.csv](https://github.com/rtanglao/rt-sumo-forum-report/blob/master/ARBITRARY_TIME_PERIOD/free-proxy-2020-07-17-2020-07-20-all-locales.csv)
+
 
 ## 05july2020 get by week for all products
 

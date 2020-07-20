@@ -1,6 +1,16 @@
 # rt-sumo-forum-report
 monthly sumo forum report, will hopefully be rendered obsolete by better code real soon now :-)
 
+## 20july2020 get friday july 17-monday july20, 2020 for paid products
+
+* 1\. get all the questions
+
+```bash
+../get-all-products-creator-answers-questions-for-arbitrary-time-period.rb 2020 7 17 2020 7 20
+# the above script outputs:
+# 2020-07-17-2020-07-20-allproducts-creator-answers-desktop-all-locales.csv
+```
+
 ## 05july2020 get by week for all products
 
 ```bash

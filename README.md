@@ -42,7 +42,10 @@ id,created,updated,title,content,tags,product,topic,locale,answers,creator,is_so
 
 * 6\. upload to google sheets and add "https://support.mozilla.org/questions/" to id column to make the id field a URL and therefore clickable
     * use regular expressions: replace `([0-9]+)` with `https://support.mozilla.org/questions/$1` 
-
+    * format the columns
+    * resulting spreadsheets are here in Google Sheets:
+        * [mozilla-vpn-2020-07-17-2020-07-20-all-locales](https://docs.google.com/spreadsheets/d/10JTNkQzSpQ2XN434bnhDKgoxVim9pxAVGVUa9-v272U/edit#gid=354395059)
+        * [free-proxy-2020-07-17-2020-07-20-all-locales](https://docs.google.com/spreadsheets/d/1NHxph1zyMBjBa8AEU7y4ad96yLMcR2LrvdgJm-7HtHY/edit#gid=1207114751)
 
 ## 05july2020 get by week for all products
 
